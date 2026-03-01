@@ -29,3 +29,5 @@ class Pattern004{
 		}
 	}
 }
+
+//chess board pattern

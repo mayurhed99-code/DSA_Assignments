@@ -27,3 +27,5 @@ class Pat006{
 		}
 	}
 }
+
+// pattern 6

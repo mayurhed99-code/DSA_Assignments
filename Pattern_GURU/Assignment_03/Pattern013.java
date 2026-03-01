@@ -39,3 +39,5 @@ class Pattern013{
 		}
 	}
 }
+
+//butterfly number pattern 

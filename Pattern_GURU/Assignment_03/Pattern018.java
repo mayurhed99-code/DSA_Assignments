@@ -55,3 +55,6 @@ class Pattern018{
 		}
 	}
 }
+
+// spiral pattern of my own logic
+// concentric rectangular pattern of my own logic

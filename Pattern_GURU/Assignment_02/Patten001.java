@@ -12,3 +12,5 @@ class Patter001{
 		}
 	}
 }
+
+// hollow rectangle pattern

@@ -41,3 +41,5 @@ class Pattern013{
 		}
 	}
 }
+
+//butterfly number with single no. on center pattern

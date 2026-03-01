@@ -35,3 +35,5 @@ class Pattern016{
 		}
 	}
 }
+
+// diamond number pattern

@@ -23,3 +23,5 @@ class Pattern009{
 		}
 	}
 }
+
+//pyramid number pattern

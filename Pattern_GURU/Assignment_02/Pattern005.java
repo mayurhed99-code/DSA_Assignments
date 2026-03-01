@@ -18,3 +18,5 @@ class Pat{
 		}
 	}
 }
+
+// cross diagonal pattern

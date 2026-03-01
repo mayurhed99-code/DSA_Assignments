@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Pattern011{
+class Pattern017{
 	public static void main(String[] args){
 		Scanner sc=new Scanner(System.in);
 
@@ -11,8 +11,12 @@ class Pattern011{
 				System.out.print(" ");
 			}
 
-			for(int k=1;k<=2*i-1;k++){
-				System.out.print("0");
+			for(int k=1;k<=i;k++){
+				if( (i+k)%2 == 0 ){
+					System.out.print(1+" ");
+				}else{
+					System.out.print(0+" ");
+				}
 			}
 
 			System.out.println();
@@ -23,11 +27,17 @@ class Pattern011{
 				System.out.print(" ");
 			}
 
-			for(int k=1;k<=2*i-1;k++){
-				System.out.print("0");
+			for(int k=1;k<=i;k++){
+				if( (i+k)%2 == 0 ){
+					System.out.print(1+" ");
+				}else{
+					System.out.print(0+" ");
+				}
 			}
 
 			System.out.println();
 		}
 	}
 }
+
+// diamond binary pattern
