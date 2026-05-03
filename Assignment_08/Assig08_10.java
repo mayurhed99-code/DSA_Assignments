@@ -68,7 +68,10 @@ class Assig08_10 {
 		System.out.println("Brute Force : "+Arrays.toString(ansArr));
 	}
 
-	void frequencyArray(int nums1[], int nums2[]){}
+	void frequencyArray(int nums1[], int nums2[]){
+
+		
+	}
 
 	void hashmap(int nums1[], int nums2[]){}
 }
