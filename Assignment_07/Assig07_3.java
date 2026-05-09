@@ -39,3 +39,11 @@ class Assign07_3{
 		return countOccurrence(arr, trg, index+1, count);
 	}
 }
+
+
+
+
+/*	Q3. Count Occurrences
+👉 Count how many times target appears
+Input: [1,2,2,3,2], target = 2
+Output: 3	*/

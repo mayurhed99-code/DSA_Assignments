@@ -39,9 +39,6 @@ class Assign07_6{
 
 
 
-
-
-
 /*	Q6. Check if Any Element is Negative
 👉 Return true if at least one negative exists
 Input: [1,2,-3,4]

@@ -33,3 +33,12 @@ class Assign07_10{
 		return checkPalindrome(arr, index+1);
 	}
 }
+
+
+
+
+
+/*	Q10. Check Palindrome Array
+👉 Return true if array is palindrome
+Input: [1,2,3,2,1]
+Output: true	*/
