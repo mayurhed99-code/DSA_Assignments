@@ -16,7 +16,7 @@ import java.util.*;
 class Demo{
 	public static void main(String[] args){
 		
-		int nums[]={1, 1, 2, 2, 3, 4, 4, 5, 6, 6};	//incompelet
+		int nums[]={1, 1, 2, 2, 3, 4};	//incompelet
 
 		System.out.println(Arrays.toString(nums));
 
@@ -25,15 +25,12 @@ class Demo{
 
 	public static int UniqeEle(int []nums){
 		
-		int i=0,j=0;
-		int count=0;
-		while(j<nums.length){
-			if(nums[i]!=nums[j]){
-				count++;
-				i=j;
-			}
-			j++;
+		HashSet<Integer> hs=new HashSet<>();
+
+		for(int i=0;i<nums.length;i++){
+			hs.add(nums[i]);
 		}
-		return count;
+
+		return hs.size();
 	}
 }
